@@ -14,3 +14,8 @@ def dividir(a, b):
 
 def potencia(a, b):
     return a ** b
+
+def raiz_cuadrada(a):
+    if a < 0:
+        raise ValueError("Cannot compute the square root of a negative number")
+    return a ** 0.5
